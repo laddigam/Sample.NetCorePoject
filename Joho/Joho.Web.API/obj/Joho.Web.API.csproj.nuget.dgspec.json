@@ -1,0 +1,383 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Web.API\\Joho.Web.API.csproj": {}
+  },
+  "projects": {
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj",
+        "projectName": "Joho.Services.DTO",
+        "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj",
+        "packagesPath": "C:\\Users\\sumanjali.l\\.nuget\\packages\\",
+        "outputPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumanjali.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj",
+        "projectName": "Joho.Services.Entities",
+        "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj",
+        "packagesPath": "C:\\Users\\sumanjali.l\\.nuget\\packages\\",
+        "outputPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumanjali.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj",
+        "projectName": "Joho.Services.Repository",
+        "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj",
+        "packagesPath": "C:\\Users\\sumanjali.l\\.nuget\\packages\\",
+        "outputPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumanjali.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj"
+              },
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\Joho.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\Joho.Services.csproj",
+        "projectName": "Joho.Services",
+        "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\Joho.Services.csproj",
+        "packagesPath": "C:\\Users\\sumanjali.l\\.nuget\\packages\\",
+        "outputPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumanjali.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.DTO\\Joho.Services.DTO.csproj"
+              },
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj"
+              },
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Web.API\\Joho.Web.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Web.API\\Joho.Web.API.csproj",
+        "projectName": "Joho.Web.API",
+        "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Web.API\\Joho.Web.API.csproj",
+        "packagesPath": "C:\\Users\\sumanjali.l\\.nuget\\packages\\",
+        "outputPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Web.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sumanjali.l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\Joho.Services.csproj": {
+                "projectPath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services\\Joho.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Westwind.Utilities": {
+              "target": "Package",
+              "version": "[3.0.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
