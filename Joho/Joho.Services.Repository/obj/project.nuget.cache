@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MUrpdy2r/Q2y0Bgq9Ag99tPP8C5NFSfZN4cjCdmpumGPOYGIjuoObL+98V6OQGe+bDZU0XyPWykV/Z4nV84BiQ==",
+  "success": true,
+  "projectFilePath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Repository\\Joho.Services.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.7\\microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\npgsql\\4.1.4\\npgsql.4.1.4.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
