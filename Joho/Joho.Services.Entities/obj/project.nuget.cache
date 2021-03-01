@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/a/EW7e8zx7+Mi92+3ckG1ZJRUrfjBIExiwR/BEV4JLumorCNrgKEX92yLPfUDlsmR9jZba6kUK0yCnEpt1lNA==",
+  "success": true,
+  "projectFilePath": "D:\\suma_Joho\\TRN_Joho_Sep20\\Joho\\Joho.Services.Entities\\Joho.Services.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\npgsql\\4.1.4\\npgsql.4.1.4.nupkg.sha512",
+    "C:\\Users\\sumanjali.l\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
