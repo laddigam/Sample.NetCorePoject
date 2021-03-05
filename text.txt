@@ -1,0 +1,192 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/TourMasterPage.master" AutoEventWireup="true" 
+CodeFile="ClearenceListForVariousDept.aspx.cs" Inherits="ExitClearance_ClearenceListForVariousDept" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
+    <br />
+<br />
+ 
+Cohesity’s web-scale simplicity for secondary data, your enterprise consolidates backups, files, objects, test/dev, and analytics on one hyperconverged solution for maximum speed and flexibility.
+Data in legacy backup infrastructure is fragmented and dark. Today, to derive insights, you make copies and move them to separate infrastructure, resulting in data sprawl and increased costs.
+Demand more from your backup and other unstructured data. Instead of multiple copies and shipping data around, bring compute to the data and run Cohesity as well as 3rd party applications on the Cohesity Data Platform
+
+
+
+
+	Manual testing of Cohesity functionality on different platforms C2k, C3k, C4k, C6k, C8k,HPE,Dell and Cisco devices.
+	Drafted various test plans to qualifying Cohesity functionality on different devices.
+	Deployment VM-Robo on ESXI and Hyper-V
+	Static routes, proxies-server and SNMP configuration for upgrade functionality.
+	Cluster management with different platforms.
+	SSH configuration, replication, recovery ,SNMP and protection jobs for backup 
+	VLAN configuration for segregate traffic
+	VIPS configuration for failover and failback functionality.
+	Scale out testing for adding and removal of a node to check for data redundancy without loss.
+	Performance testing for throughput 
+	Garbage Collection test to check device efficiency 
+
+
+
+
+Project Description
+Project Title HEADS
+Project Description This ERP system includes Leave management, Human Resources Management, Swipe management modules.
+Roles and Responsibilities Module requirement analysis and design.
+Involved in Application Development and Unit Testing.
+DB design and development
+Environment ASP.Net, C#, SQL Server 2008
+
+<br />
+ <asp:UpdatePanel ID="upAppraisalList" runat="server">
+        <ContentTemplate>
+            <section class="tour">
+             
+             <div class="container-fluid">
+              <h1 class="mb-20">Clearence List For Various Department</h1>
+
+               <form action=""> 
+                 <div class="row">
+        <div class="col-md-12">
+			<div class="table-responsive">
+        <asp:GridView class="table card-data-table requestlistpage" 
+                    ID="confirmationAppraisalList" runat="server"
+                    AllowSorting="True" AutoGenerateColumns="False" PageSize="20" 
+                     Width="100%"  AllowPaging="True" OnRowDataBound="ClearenceListForVariousDept_RowDataBound"
+                      OnRowCommand="ClearenceListForVariousDept_RowCommand">
+           
+            <Columns>
+                <asp:TemplateField HeaderText="Sl.No">
+                    <ItemTemplate>
+                        <%# Container.DataItemIndex + 1 %>.
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Right" Width="25" />
+                    <ItemStyle HorizontalAlign="Right" Width="25" />
+                    <ItemStyle />
+                </asp:TemplateField>
+               <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Employee Id" Visible="false">
+                        <ItemTemplate>
+                            <asp:Label ID="lblEmpId" runat="server" Visible="false" Text='<%# Bind("EmployeeId") %>'></asp:Label>
+                             <asp:Label ID="lblInitiationId" runat="server" Visible="false" Text='<%# Bind("InitiationId") %>'></asp:Label>
+                        </ItemTemplate>
+                        <HeaderStyle HorizontalAlign="Left" Width="75" />
+                        <ItemStyle HorizontalAlign="Left" Width="75" />
+                    </asp:TemplateField>
+                <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Employee Name">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmpName" runat="server" Text='<%# Bind("EmployeeName") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Employee Code">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmployeeCode" runat="server" Text='<%#Bind("EmployeeCode") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+                <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Designation">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmployeeStatus" runat="server" Text='<%#Bind("Designation") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+                  <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Department">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmployeeStatus" runat="server" Text='<%#Bind("Department") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+                  <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Branch">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmployeeStatus" runat="server" Text='<%#Bind("Branch") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+                 <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Reporting Officer">
+                    <ItemTemplate>
+                        <asp:Label ID="lblEmployeeStatus" runat="server" Text='<%#Bind("ReportingOfficer") %>'></asp:Label>
+                    </ItemTemplate>
+                    <HeaderStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+              
+                <asp:TemplateField HeaderStyle-HorizontalAlign="Left" HeaderText="Date of Resignation">
+                    <ItemTemplate>
+                        <asp:Label ID="lblDateofConfirmation" runat="server" Text='<%#Bind("DateofResignation","{0:dd/MM/yyyy}")%>'></asp:Label>
+                    </ItemTemplate>
+                    <headerStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle HorizontalAlign="Left" Width="75" />
+                    <ItemStyle />
+                </asp:TemplateField>
+              
+                <asp:TemplateField HeaderText="Fill Form" ItemStyle-Width="4%"  HeaderStyle-HorizontalAlign="Left"
+                    FooterStyle-HorizontalAlign="Center">
+                    <ItemTemplate>                           
+                        <asp:ImageButton ID="btnFillForm" runat="server" CausesValidation="False" CommandName="FillForm" Visible="false"
+                             ImageUrl="~/Images/form-red-icon.png"  ToolTip="Fill Departmental Clearence Form"/>           
+                     
+                    </ItemTemplate>
+                    <ItemStyle HorizontalAlign="center" />
+                </asp:TemplateField>
+
+               <asp:TemplateField HeaderText="View Report" ItemStyle-Width="8%"  HeaderStyle-HorizontalAlign="Left"
+                    FooterStyle-HorizontalAlign="Center">
+                    <ItemTemplate>                                            
+                        <asp:ImageButton ID="btnReport" runat="server" CausesValidation="False" CommandName="CAReport" Visible="false"
+                             ImageUrl="~/Images/report-red.png"  ToolTip="View 	Departmental Clearence Form"/>           
+                         
+                        <asp:ImageButton ID="btnFeedbackReport" runat="server" CausesValidation="False" CommandName="FeedbackReport"  Visible="false"
+                             ImageUrl="~/Images/report-green.png"  ToolTip="View Feedback report"/>      
+                    </ItemTemplate>
+                    <ItemStyle HorizontalAlign="center" />
+                </asp:TemplateField>
+               
+                 <asp:TemplateField HeaderText="Verify" ItemStyle-Width="4%"  HeaderStyle-HorizontalAlign="Left"
+                    FooterStyle-HorizontalAlign="Center">
+                    <ItemTemplate>                           
+                        <asp:ImageButton ID="btnVerify" runat="server" CausesValidation="False" CommandName="Verify" Visible="false"
+                             ImageUrl="~/Images/form-blue-icon.png"  ToolTip="Verify Confirmation Appraisal Form"/>           
+                     
+                    </ItemTemplate>
+                    <ItemStyle HorizontalAlign="center" />
+                </asp:TemplateField> 
+
+                
+            </Columns>
+            <EmptyDataRowStyle CssClass=".StyleGrid" Font-Bold="True" HorizontalAlign="Center" />
+            <EmptyDataTemplate>
+                No data found
+            </EmptyDataTemplate>
+            <PagerStyle CssClass="pgr"></PagerStyle>
+        </asp:GridView>
+    </div>
+    </div>
+    </div>
+      </form>
+        <br>
+        <br>
+               </div>
+               </section>
+         </ContentTemplate>
+</asp:UpdatePanel>
+   
+</asp:Content>
+
+
+
+
+
+
